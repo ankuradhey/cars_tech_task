@@ -1,0 +1,18 @@
+.flex-md-row {
+    flex-direction: row;
+}
+.align-items-center {
+    align-items: center;
+}
+.flex-column {
+    flex-direction: column;
+}
+.d-flex {
+    display: flex !important;
+}
+.brand {
+    height: 48px;
+}
+.brand img {
+    height: 48px;
+}
