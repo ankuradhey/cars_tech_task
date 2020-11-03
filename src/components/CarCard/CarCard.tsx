@@ -1,12 +1,19 @@
 import React, { FC } from "react";
 import { Card } from "react-bootstrap";
+import { useHistory } from "react-router-dom";
 import { CarCardProps } from "../../types";
 import { ImgCard } from "../ImgCard";
 import { Link } from "../Link/Link.style";
 import { Text } from "../Text";
 import * as Styled from "./CarCard.style";
 
-export const CarCard: FC<CarCardProps> = ({ pictureUrl, title, subTitle }) => {
+export const CarCard: FC<CarCardProps> = ({ id, pictureUrl, title, subTitle }) => {
+    const history = useHistory();
+
+    const navigateTo = () => {
+        history.push(`/car/${id}`);
+    };
+
     return (
         <Card className="margin-bottom-2">
             <Styled.CardWrap>
@@ -16,7 +23,9 @@ export const CarCard: FC<CarCardProps> = ({ pictureUrl, title, subTitle }) => {
                 <Styled.ContentWrap>
                     <Card.Title>{title}</Card.Title>
                     <Text size="regular">{subTitle}</Text>
-                    <Link className="d-block">View details</Link>
+                    <Link className="d-block" onClick={navigateTo}>
+                        View details
+                    </Link>
                 </Styled.ContentWrap>
             </Styled.CardWrap>
         </Card>

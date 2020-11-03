@@ -15,13 +15,13 @@ export const Sidebar: FC<SidebarProp> = ({ setFilter }) => {
     const [formValue, setFormValue] = useState({ color: "", manufacturer: "" });
 
     const fetchColors = async () => {
-        const result = await fetch(constant.colorsUrl);
+        const result = await fetch(`${constant.host}${constant.colorsUrl}`);
         const data = await result.json();
         setColors(data.colors);
     };
 
     const fetchManufacturers = async () => {
-        const result = await fetch(constant.manufacturersUrl);
+        const result = await fetch(`${constant.host}${constant.manufacturersUrl}`);
         const data = await result.json();
         setManufacturers(data.manufacturers.map((val) => val.name));
     };

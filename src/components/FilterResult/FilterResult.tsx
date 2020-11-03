@@ -20,7 +20,7 @@ export const FilterResult: FC<FilterResultProps> = ({ color, manufacturer }) => 
     useEffect(() => {
         setLoading(true);
         const fetchData = async (color, manufacturer) => {
-            let url = `${constant.url}?page=${page}`;
+            let url = `${constant.host}${constant.carsUrl}?page=${page}`;
 
             // If color is found then add to url string
             if (color) {
@@ -58,9 +58,9 @@ export const FilterResult: FC<FilterResultProps> = ({ color, manufacturer }) => 
                 if (loading) return <LoadingCarCard />;
 
                 const title = `${car?.manufacturerName} ${car?.modelName}`;
-                const subTitle = `Stock # ${car?.stockNumber}-${
+                const subTitle = `Stock # ${car?.stockNumber} - ${
                     car?.mileage?.number
-                }${car?.mileage?.unit.toUpperCase()}-${car?.fuelType}-${car?.color}`;
+                }${car?.mileage?.unit.toUpperCase()} - ${car?.fuelType} - ${car?.color}`;
 
                 return (
                     <Row>
