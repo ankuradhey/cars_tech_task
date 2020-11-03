@@ -6,6 +6,7 @@ type TextProps = {
 };
 
 export const Text = styled.div<TextProps>`
+    display: inline-block;
     ${(props) =>
         props.size === "small" &&
         css`

@@ -9,11 +9,21 @@ interface IProps {
 }
 
 export const Button = styled.button<IProps>`
-    margin: 8px;
     border-radius: ${(props) => props.theme.borderRadius};
     border: none;
     width: 128px;
     height: 32px;
+    :focus {
+        outline: none;
+    }
+    :active {
+        color: ${(props) => props.theme.palette.secondary.contrastText};
+        background-color: ${(props) => props.theme.palette.secondary.main};
+    }
+    :hover {
+        color: ${(props) => props.theme.palette.secondary.contrastText};
+        background-color: ${(props) => props.theme.palette.secondary.main};
+    }
     ${(props) => {
         switch (props.variant) {
             case VARIANT.SECONDARY:

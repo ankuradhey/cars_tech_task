@@ -11,5 +11,7 @@ export const ImgWrap = styled.div`
 
 export const ContentWrap = styled.div`
     display: flex-row;
-    padding-left: ${(props) => props.theme.gutterSize.sm};
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding-left: ${(props) => props.theme.gutterSize.lg};
 `;
