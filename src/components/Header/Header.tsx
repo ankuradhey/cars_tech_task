@@ -9,9 +9,15 @@ export const Header: FC = () => {
                 <img src={logo} alt="Auto1.com" />
             </Link>
             <nav className="my-2 my-md-0 mr-md-3">
-                <Link className="p-2 text-dark">Purchase</Link>
-                <Link className="p-2 text-dark">My Orders</Link>
-                <Link className="p-2 text-dark">Sell</Link>
+                <Link className="p-2 text-dark" to="/">
+                    Purchase
+                </Link>
+                <Link className="p-2 text-dark" to="/">
+                    My Orders
+                </Link>
+                <Link className="p-2 text-dark" to="/">
+                    Sell
+                </Link>
             </nav>
         </div>
     );

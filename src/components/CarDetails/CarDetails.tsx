@@ -9,9 +9,29 @@ import { Button } from "../Button";
 
 export const CarDetails: FC = () => {
     let { id } = useParams();
+    const savedCars: number[] = JSON.parse(localStorage.getItem("savedCars") || "[]");
+    const [saved, setSaved] = useState(!!savedCars.find((val) => val === id));
     const [carData, setCarData] = useState<Car>(null);
 
-    const saveClick = () => {};
+    const saveCar = () => {
+        let newSavedCars = [...savedCars, id];
+        localStorage.setItem("savedCars", JSON.stringify(newSavedCars));
+        setSaved(true);
+    };
+
+    const unSaveCar = () => {
+        let newSavedCars = savedCars.filter((val) => val !== id);
+        localStorage.setItem("savedCars", JSON.stringify(newSavedCars));
+        setSaved(false);
+    };
+
+    const saveClick = () => {
+        if (saved) {
+            unSaveCar();
+        } else {
+            saveCar();
+        }
+    };
 
     useEffect(() => {
         const fetchData = async () => {
@@ -71,13 +91,23 @@ export const CarDetails: FC = () => {
                                     If you like this car, click the button and save it in your
                                     collection of favorite items.
                                 </Text>
-                                <Button
-                                    variant="primary"
-                                    className="float-right"
-                                    onClick={saveClick}
-                                >
-                                    Save
-                                </Button>
+                                {saved ? (
+                                    <Button
+                                        variant="tertiary"
+                                        className="float-right"
+                                        onClick={saveClick}
+                                    >
+                                        Unsave
+                                    </Button>
+                                ) : (
+                                    <Button
+                                        variant="primary"
+                                        className="float-right"
+                                        onClick={saveClick}
+                                    >
+                                        Save
+                                    </Button>
+                                )}
                             </Card.Body>
                         </Card>
                     </Col>

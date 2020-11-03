@@ -1,8 +1,9 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export enum VARIANT {
     PRIMARY = "primary",
     SECONDARY = "secodary",
+    TERTIARY = "tertiary",
 }
 interface IProps {
     variant?: VARIANT;
@@ -16,27 +17,52 @@ export const Button = styled.button<IProps>`
     :focus {
         outline: none;
     }
-    :active {
-        color: ${(props) => props.theme.palette.secondary.contrastText};
-        background-color: ${(props) => props.theme.palette.secondary.main};
-    }
+
+    ${(props) => {
+        switch (props.variant) {
+            case VARIANT.TERTIARY:
+                return tertiaryBtnCss;
+            case VARIANT.SECONDARY:
+                return secondaryBtnCss;
+            case VARIANT.PRIMARY:
+            default:
+                return primaryBtnCss;
+        }
+    }}
+`;
+
+const secondaryBtnCss = css`
+    color: ${(props) => props.theme.palette.secondary.contrastText};
+    background-color: ${(props) => props.theme.palette.secondary.main};
     :hover {
         color: ${(props) => props.theme.palette.secondary.contrastText};
         background-color: ${(props) => props.theme.palette.secondary.main};
     }
-    ${(props) => {
-        switch (props.variant) {
-            case VARIANT.SECONDARY:
-                return `
-          color: ${props.theme.palette.secondary.contrastText};
-          background-color: ${props.theme.palette.secondary.main};
-        `;
-            case VARIANT.PRIMARY:
-            default:
-                return `
-          color: ${props.theme.palette.primary.contrastText};
-          background-color: ${props.theme.palette.primary.main};
-        `;
-        }
-    }}
+    :active {
+        color: ${(props) => props.theme.palette.secondary.contrastText};
+        background-color: ${(props) => props.theme.palette.secondary.main};
+    }
+`;
+
+const primaryBtnCss = css`
+    color: ${(props) => props.theme.palette.primary.contrastText};
+    background-color: ${(props) => props.theme.palette.primary.main};
+    :hover {
+        color: ${(props) => props.theme.palette.secondary.contrastText};
+        background-color: ${(props) => props.theme.palette.secondary.main};
+    }
+    :active {
+        color: ${(props) => props.theme.palette.secondary.contrastText};
+        background-color: ${(props) => props.theme.palette.secondary.main};
+    }
+`;
+
+const tertiaryBtnCss = css`
+    color: ${(props) => props.theme.palette.tertiary.contrastText};
+    color: ${(props) => props.theme.palette.tertiary.main};
+    background-color: ${(props) => props.theme.palette.tertiary.contrastText};
+    :active {
+        color: ${(props) => props.theme.palette.tertiary.main};
+        background-color: ${(props) => props.theme.palette.tertiary.contrastText};
+    }
 `;

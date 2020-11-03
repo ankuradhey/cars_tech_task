@@ -54,8 +54,8 @@ export const FilterResult: FC<FilterResultProps> = ({ color, manufacturer }) => 
                 {loading ? "Loading" : `Showing ${cars.length} of ${carsData.totalRecords} results`}
             </Text>
 
-            {cars.map((car: Car) => {
-                if (loading) return <LoadingCarCard />;
+            {cars.map((car: Car, index) => {
+                if (loading) return <LoadingCarCard key={index} />;
 
                 const title = `${car?.manufacturerName} ${car?.modelName}`;
                 const subTitle = `Stock # ${car?.stockNumber} - ${
@@ -63,7 +63,7 @@ export const FilterResult: FC<FilterResultProps> = ({ color, manufacturer }) => 
                 }${car?.mileage?.unit.toUpperCase()} - ${car?.fuelType} - ${car?.color}`;
 
                 return (
-                    <Row>
+                    <Row key={car.stockNumber}>
                         <Col>
                             <CarCard
                                 title={title}

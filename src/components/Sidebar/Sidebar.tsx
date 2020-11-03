@@ -54,7 +54,7 @@ export const Sidebar: FC<SidebarProp> = ({ setFilter }) => {
                         >
                             <option value="">All car colors</option>
                             {colors.map((val) => {
-                                return <option>{val}</option>;
+                                return <option key={val}>{val}</option>;
                             })}
                         </Form.Control>
                     </Form.Group>
@@ -69,7 +69,7 @@ export const Sidebar: FC<SidebarProp> = ({ setFilter }) => {
                         >
                             <option value="">All manufacturers</option>
                             {manufacturers.map((val) => {
-                                return <option>{val}</option>;
+                                return <option key={val}>{val}</option>;
                             })}
                         </Form.Control>
                     </Form.Group>

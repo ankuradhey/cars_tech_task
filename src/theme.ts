@@ -15,6 +15,10 @@ export const defaultTheme: DefaultTheme = {
             main: "#D37324",
             contrastText: "#ffffff",
         },
+        tertiary: {
+            main: "#ffffff",
+            contrastText: "#EDEDED",
+        },
     },
     gutterSize: {
         sm: "8px",

@@ -9,26 +9,16 @@ export const LoadingCarCard: FC = () => {
         <Card className="margin-bottom-2">
             <Styled.CardWrap>
                 <Styled.ImgWrap>
-                    <ImgCard width="100px" height="80px" loading={true} />
+                    <ImgCard width="100px" height="80px" loading />
                 </Styled.ImgWrap>
                 <Styled.ContentWrap>
-                    <ImgCard
-                        width="100%"
-                        height="18px"
-                        className="margin-bottom-1"
-                        loading={true}
-                    />
-                    <ImgCard
-                        width="100%"
-                        height="12px"
-                        className="margin-bottom-2"
-                        loading={true}
-                    />
+                    <ImgCard width="100%" height="18px" className="margin-bottom-1" loading />
+                    <ImgCard width="100%" height="12px" className="margin-bottom-2" loading />
                     <ImgCard
                         width="auto"
                         height="12px"
                         className="margin-bottom-2 d-inline-block"
-                        loading={true}
+                        loading
                     >
                         <Link className="invisible">View details</Link>
                     </ImgCard>

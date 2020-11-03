@@ -11,7 +11,12 @@ export const ImgCard: FC<ImgProps> = ({
     loading = false,
 }) => {
     return (
-        <Styled.ImgCard width={width} height={height} className={className} loading={loading}>
+        <Styled.ImgCard
+            width={width}
+            height={height}
+            className={className}
+            loading={loading.toString()}
+        >
             {src && <img src={src} alt="car" />}
             {children}
         </Styled.ImgCard>
