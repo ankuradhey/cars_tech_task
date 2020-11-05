@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap";
 import { useHistory } from "react-router-dom";
 import { CarCardProps } from "../../types";
 import { ImgCard } from "../ImgCard";
-import { Link } from "../Link/Link.style";
+import { Link } from "../Link";
 import { Text } from "../Text";
 import * as Styled from "./CarCard.style";
 
@@ -23,7 +23,7 @@ export const CarCard: FC<CarCardProps> = ({ id, pictureUrl, title, subTitle }) =
                 <Styled.ContentWrap>
                     <Card.Title>{title}</Card.Title>
                     <Text size="regular">{subTitle}</Text>
-                    <Link className="d-block" onClick={navigateTo}>
+                    <Link data-testid="viewDetailsLink" className="d-block" onClick={navigateTo}>
                         View details
                     </Link>
                 </Styled.ContentWrap>

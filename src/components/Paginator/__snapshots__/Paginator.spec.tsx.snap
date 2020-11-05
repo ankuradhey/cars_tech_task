@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Paginator Component Should render Paginator component 1`] = `
+<div
+  class="d-flex justify-content-center"
+>
+  <div
+    class="p-2 bd-highlight"
+  >
+    <div
+      class="sc-gsTCUz hhHEdt"
+      data-testid="first-page"
+    >
+      First
+    </div>
+  </div>
+  <div
+    class="p-2 bd-highlight"
+  >
+    <div
+      class="sc-gsTCUz hhHEdt"
+      data-testid="previous-page"
+    >
+      Previous
+    </div>
+  </div>
+  <div
+    class="p-2 bd-highlight"
+  >
+    <div
+      class="sc-gsTCUz hhHEdt"
+    >
+      Page 
+      1
+       of 
+      10
+    </div>
+  </div>
+  <div
+    class="p-2 bd-highlight"
+  >
+    <button
+      class="sc-bdfBwQ jSTqUA"
+      data-testid="next-page"
+    >
+      Next
+    </button>
+  </div>
+  <div
+    class="p-2 bd-highlight"
+  >
+    <button
+      class="sc-bdfBwQ jSTqUA"
+      data-testid="last-page"
+    >
+      Last
+    </button>
+  </div>
+</div>
+`;

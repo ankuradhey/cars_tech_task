@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import { VARIANT } from "./Link";
 
-export const Link = styled.button`
-    font-size: 12px;
+export const Link = styled.button<{ variant: VARIANT }>`
+    ${(props) => (props.variant === VARIANT.LINK ? "font-size: 12px;" : "")}
     background: none;
     border: none;
     padding: 0;

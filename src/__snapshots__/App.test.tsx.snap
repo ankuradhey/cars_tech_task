@@ -1,0 +1,869 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component Should be landing on a bad page 1`] = `
+<div>
+  <div
+    class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow"
+  >
+    <a
+      class="brand my-0 mr-md-auto font-weight-normal"
+      href="/"
+    >
+      <img
+        alt="Auto1.com"
+        src="logo.png"
+      />
+    </a>
+    <nav
+      class="my-2 my-md-0 mr-md-3"
+    >
+      <a
+        class="p-2 text-dark"
+        href="/"
+      >
+        Purchase
+      </a>
+      <a
+        class="p-2 text-dark"
+        href="/"
+      >
+        My Orders
+      </a>
+      <a
+        class="p-2 text-dark"
+        href="/"
+      >
+        Sell
+      </a>
+    </nav>
+  </div>
+  <div
+    class="d-flex flex-column justify-content-center align-items-center container"
+    style="min-height: calc(100vh - 160px);"
+  >
+    <img
+      alt="logo"
+      class="margin-bottom-3 d-flex"
+      src="logo.png"
+      width="190px"
+    />
+    <div
+      class="sc-hKgILt hXCUdi margin-bottom-3 d-flex"
+    >
+      404 - Not Found
+    </div>
+    <div
+      class="sc-hKgILt kOrGAu margin-bottom-3 d-flex"
+    >
+      Sorry, the page you are looking for does not exist.
+    </div>
+    <div
+      class="sc-hKgILt kOrGAu margin-bottom-2 d-flex"
+    >
+      You can always go back to the  
+      <button
+        class="sc-dlfnbm fyhdMX"
+      >
+         homepage
+      </button>
+    </div>
+  </div>
+  <footer
+    class="sc-bdfBwQ hhKrKQ footer text-center mt-3"
+  >
+    <span
+      class="margin-auto"
+    >
+      © AUTO1 Group 2018
+    </span>
+  </footer>
+</div>
+`;
+
+exports[`App Component Should be landing on a car details 1`] = `
+<div>
+  <div
+    class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow"
+  >
+    <a
+      class="brand my-0 mr-md-auto font-weight-normal"
+      href="/"
+    >
+      <img
+        alt="Auto1.com"
+        src="logo.png"
+      />
+    </a>
+    <nav
+      class="my-2 my-md-0 mr-md-3"
+    >
+      <a
+        class="p-2 text-dark"
+        href="/"
+      >
+        Purchase
+      </a>
+      <a
+        class="p-2 text-dark"
+        href="/"
+      >
+        My Orders
+      </a>
+      <a
+        class="p-2 text-dark"
+        href="/"
+      >
+        Sell
+      </a>
+    </nav>
+  </div>
+  <div
+    class="margin-bottom-3 container-fluid"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col"
+      >
+        <div
+          class="sc-gsTCUz fbaEUS"
+          height="400px"
+          loading="false"
+          width="100%"
+        >
+          <img
+            alt="car"
+            src="https://auto1-js-task-api--mufasa71.repl.co/images/car.svg"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="container"
+    style="width: 800px;"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-md-7"
+      >
+        <div
+          class="sc-hKgILt hXCUdi d-block margin-bottom-3"
+        >
+          Fiat
+           
+          Grande Punto
+        </div>
+        <div
+          class="sc-hKgILt kOrGAu d-block margin-bottom-3"
+        >
+          Stock # 
+          10034
+           - 
+          170648
+           
+          KM
+           
+          - 
+          Diesel
+           - 
+          black
+        </div>
+        <div
+          class="sc-hKgILt leLkki d-block margin-bottom-3 text-justify"
+        >
+          This car is currently available and can be delivered as sson as tomorrow morning. Please be aware that delivery times shown in this page are not definitive and may change due to bad weather conditions.
+        </div>
+      </div>
+      <div
+        class="col-md-5"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="card-body"
+          >
+            <div
+              class="sc-hKgILt leLkki d-block margin-bottom-1 text-justify"
+            >
+              If you like this car, click the button and save it in your collection of favorite items.
+            </div>
+            <button
+              class="sc-iBPRYJ ptxhL float-right"
+            >
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="sc-bdfBwQ hhKrKQ footer text-center mt-3"
+  >
+    <span
+      class="margin-auto"
+    >
+      © AUTO1 Group 2018
+    </span>
+  </footer>
+</div>
+`;
+
+exports[`App Component Should do full app rendering/navigating 1`] = `
+<div>
+  <div
+    class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow"
+  >
+    <a
+      class="brand my-0 mr-md-auto font-weight-normal"
+      href="/"
+    >
+      <img
+        alt="Auto1.com"
+        src="logo.png"
+      />
+    </a>
+    <nav
+      class="my-2 my-md-0 mr-md-3"
+    >
+      <a
+        class="p-2 text-dark"
+        href="/"
+      >
+        Purchase
+      </a>
+      <a
+        class="p-2 text-dark"
+        href="/"
+      >
+        My Orders
+      </a>
+      <a
+        class="p-2 text-dark"
+        href="/"
+      >
+        Sell
+      </a>
+    </nav>
+  </div>
+  <div
+    class="container"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-md-4"
+      >
+        <div
+          class="margin-bottom-3 card"
+        >
+          <div
+            class="card-body"
+          >
+            <form
+              class=""
+            >
+              <div
+                class="form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  <div
+                    class="sc-hKgILt llewCg"
+                  >
+                    Color
+                  </div>
+                </label>
+                <select
+                  class="custom-select"
+                  data-testid="color"
+                >
+                  <option
+                    value=""
+                  >
+                    All car colors
+                  </option>
+                </select>
+              </div>
+              <div
+                class="form-group"
+              >
+                <label
+                  class="form-label"
+                >
+                  <div
+                    class="sc-hKgILt llewCg"
+                  >
+                    Manufacturer
+                  </div>
+                </label>
+                <select
+                  class="custom-select"
+                  data-testid="manufacturer"
+                >
+                  <option
+                    value=""
+                  >
+                    All manufacturers
+                  </option>
+                </select>
+              </div>
+            </form>
+            <button
+              class="sc-iBPRYJ ptxhL float-right"
+              data-testid="filter"
+            >
+              Filter
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-md-8"
+      >
+        <div
+          class="sc-hKgILt BnbLY d-block margin-bottom-2"
+        >
+          Available cars
+        </div>
+        <div
+          class="sc-hKgILt kOrGAu margin-bottom-3"
+        >
+          Loading
+        </div>
+        <div
+          class="margin-bottom-2 card"
+        >
+          <div
+            class="sc-eCssSg eGHMQQ"
+          >
+            <div
+              class="sc-jSgupP iYzSIw"
+            >
+              <div
+                class="sc-gsTCUz hpwOXo"
+                height="80px"
+                loading="true"
+                width="100px"
+              />
+            </div>
+            <div
+              class="sc-gKsewC bmUAys"
+            >
+              <div
+                class="sc-gsTCUz lfxAIM margin-bottom-1"
+                height="18px"
+                loading="true"
+                width="100%"
+              />
+              <div
+                class="sc-gsTCUz ekjGVy margin-bottom-2"
+                height="12px"
+                loading="true"
+                width="100%"
+              />
+              <div
+                class="sc-gsTCUz dXSIdd margin-bottom-2 d-inline-block"
+                height="12px"
+                loading="true"
+                width="auto"
+              >
+                <button
+                  class="sc-dlfnbm fyhdMX invisible"
+                >
+                  View details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="margin-bottom-2 card"
+        >
+          <div
+            class="sc-eCssSg eGHMQQ"
+          >
+            <div
+              class="sc-jSgupP iYzSIw"
+            >
+              <div
+                class="sc-gsTCUz hpwOXo"
+                height="80px"
+                loading="true"
+                width="100px"
+              />
+            </div>
+            <div
+              class="sc-gKsewC bmUAys"
+            >
+              <div
+                class="sc-gsTCUz lfxAIM margin-bottom-1"
+                height="18px"
+                loading="true"
+                width="100%"
+              />
+              <div
+                class="sc-gsTCUz ekjGVy margin-bottom-2"
+                height="12px"
+                loading="true"
+                width="100%"
+              />
+              <div
+                class="sc-gsTCUz dXSIdd margin-bottom-2 d-inline-block"
+                height="12px"
+                loading="true"
+                width="auto"
+              >
+                <button
+                  class="sc-dlfnbm fyhdMX invisible"
+                >
+                  View details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="margin-bottom-2 card"
+        >
+          <div
+            class="sc-eCssSg eGHMQQ"
+          >
+            <div
+              class="sc-jSgupP iYzSIw"
+            >
+              <div
+                class="sc-gsTCUz hpwOXo"
+                height="80px"
+                loading="true"
+                width="100px"
+              />
+            </div>
+            <div
+              class="sc-gKsewC bmUAys"
+            >
+              <div
+                class="sc-gsTCUz lfxAIM margin-bottom-1"
+                height="18px"
+                loading="true"
+                width="100%"
+              />
+              <div
+                class="sc-gsTCUz ekjGVy margin-bottom-2"
+                height="12px"
+                loading="true"
+                width="100%"
+              />
+              <div
+                class="sc-gsTCUz dXSIdd margin-bottom-2 d-inline-block"
+                height="12px"
+                loading="true"
+                width="auto"
+              >
+                <button
+                  class="sc-dlfnbm fyhdMX invisible"
+                >
+                  View details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="margin-bottom-2 card"
+        >
+          <div
+            class="sc-eCssSg eGHMQQ"
+          >
+            <div
+              class="sc-jSgupP iYzSIw"
+            >
+              <div
+                class="sc-gsTCUz hpwOXo"
+                height="80px"
+                loading="true"
+                width="100px"
+              />
+            </div>
+            <div
+              class="sc-gKsewC bmUAys"
+            >
+              <div
+                class="sc-gsTCUz lfxAIM margin-bottom-1"
+                height="18px"
+                loading="true"
+                width="100%"
+              />
+              <div
+                class="sc-gsTCUz ekjGVy margin-bottom-2"
+                height="12px"
+                loading="true"
+                width="100%"
+              />
+              <div
+                class="sc-gsTCUz dXSIdd margin-bottom-2 d-inline-block"
+                height="12px"
+                loading="true"
+                width="auto"
+              >
+                <button
+                  class="sc-dlfnbm fyhdMX invisible"
+                >
+                  View details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="margin-bottom-2 card"
+        >
+          <div
+            class="sc-eCssSg eGHMQQ"
+          >
+            <div
+              class="sc-jSgupP iYzSIw"
+            >
+              <div
+                class="sc-gsTCUz hpwOXo"
+                height="80px"
+                loading="true"
+                width="100px"
+              />
+            </div>
+            <div
+              class="sc-gKsewC bmUAys"
+            >
+              <div
+                class="sc-gsTCUz lfxAIM margin-bottom-1"
+                height="18px"
+                loading="true"
+                width="100%"
+              />
+              <div
+                class="sc-gsTCUz ekjGVy margin-bottom-2"
+                height="12px"
+                loading="true"
+                width="100%"
+              />
+              <div
+                class="sc-gsTCUz dXSIdd margin-bottom-2 d-inline-block"
+                height="12px"
+                loading="true"
+                width="auto"
+              >
+                <button
+                  class="sc-dlfnbm fyhdMX invisible"
+                >
+                  View details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="margin-bottom-2 card"
+        >
+          <div
+            class="sc-eCssSg eGHMQQ"
+          >
+            <div
+              class="sc-jSgupP iYzSIw"
+            >
+              <div
+                class="sc-gsTCUz hpwOXo"
+                height="80px"
+                loading="true"
+                width="100px"
+              />
+            </div>
+            <div
+              class="sc-gKsewC bmUAys"
+            >
+              <div
+                class="sc-gsTCUz lfxAIM margin-bottom-1"
+                height="18px"
+                loading="true"
+                width="100%"
+              />
+              <div
+                class="sc-gsTCUz ekjGVy margin-bottom-2"
+                height="12px"
+                loading="true"
+                width="100%"
+              />
+              <div
+                class="sc-gsTCUz dXSIdd margin-bottom-2 d-inline-block"
+                height="12px"
+                loading="true"
+                width="auto"
+              >
+                <button
+                  class="sc-dlfnbm fyhdMX invisible"
+                >
+                  View details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="margin-bottom-2 card"
+        >
+          <div
+            class="sc-eCssSg eGHMQQ"
+          >
+            <div
+              class="sc-jSgupP iYzSIw"
+            >
+              <div
+                class="sc-gsTCUz hpwOXo"
+                height="80px"
+                loading="true"
+                width="100px"
+              />
+            </div>
+            <div
+              class="sc-gKsewC bmUAys"
+            >
+              <div
+                class="sc-gsTCUz lfxAIM margin-bottom-1"
+                height="18px"
+                loading="true"
+                width="100%"
+              />
+              <div
+                class="sc-gsTCUz ekjGVy margin-bottom-2"
+                height="12px"
+                loading="true"
+                width="100%"
+              />
+              <div
+                class="sc-gsTCUz dXSIdd margin-bottom-2 d-inline-block"
+                height="12px"
+                loading="true"
+                width="auto"
+              >
+                <button
+                  class="sc-dlfnbm fyhdMX invisible"
+                >
+                  View details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="margin-bottom-2 card"
+        >
+          <div
+            class="sc-eCssSg eGHMQQ"
+          >
+            <div
+              class="sc-jSgupP iYzSIw"
+            >
+              <div
+                class="sc-gsTCUz hpwOXo"
+                height="80px"
+                loading="true"
+                width="100px"
+              />
+            </div>
+            <div
+              class="sc-gKsewC bmUAys"
+            >
+              <div
+                class="sc-gsTCUz lfxAIM margin-bottom-1"
+                height="18px"
+                loading="true"
+                width="100%"
+              />
+              <div
+                class="sc-gsTCUz ekjGVy margin-bottom-2"
+                height="12px"
+                loading="true"
+                width="100%"
+              />
+              <div
+                class="sc-gsTCUz dXSIdd margin-bottom-2 d-inline-block"
+                height="12px"
+                loading="true"
+                width="auto"
+              >
+                <button
+                  class="sc-dlfnbm fyhdMX invisible"
+                >
+                  View details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="margin-bottom-2 card"
+        >
+          <div
+            class="sc-eCssSg eGHMQQ"
+          >
+            <div
+              class="sc-jSgupP iYzSIw"
+            >
+              <div
+                class="sc-gsTCUz hpwOXo"
+                height="80px"
+                loading="true"
+                width="100px"
+              />
+            </div>
+            <div
+              class="sc-gKsewC bmUAys"
+            >
+              <div
+                class="sc-gsTCUz lfxAIM margin-bottom-1"
+                height="18px"
+                loading="true"
+                width="100%"
+              />
+              <div
+                class="sc-gsTCUz ekjGVy margin-bottom-2"
+                height="12px"
+                loading="true"
+                width="100%"
+              />
+              <div
+                class="sc-gsTCUz dXSIdd margin-bottom-2 d-inline-block"
+                height="12px"
+                loading="true"
+                width="auto"
+              >
+                <button
+                  class="sc-dlfnbm fyhdMX invisible"
+                >
+                  View details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="margin-bottom-2 card"
+        >
+          <div
+            class="sc-eCssSg eGHMQQ"
+          >
+            <div
+              class="sc-jSgupP iYzSIw"
+            >
+              <div
+                class="sc-gsTCUz hpwOXo"
+                height="80px"
+                loading="true"
+                width="100px"
+              />
+            </div>
+            <div
+              class="sc-gKsewC bmUAys"
+            >
+              <div
+                class="sc-gsTCUz lfxAIM margin-bottom-1"
+                height="18px"
+                loading="true"
+                width="100%"
+              />
+              <div
+                class="sc-gsTCUz ekjGVy margin-bottom-2"
+                height="12px"
+                loading="true"
+                width="100%"
+              />
+              <div
+                class="sc-gsTCUz dXSIdd margin-bottom-2 d-inline-block"
+                height="12px"
+                loading="true"
+                width="auto"
+              >
+                <button
+                  class="sc-dlfnbm fyhdMX invisible"
+                >
+                  View details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="d-flex justify-content-center"
+        >
+          <div
+            class="p-2 bd-highlight"
+          >
+            <div
+              class="sc-hKgILt llewCg"
+              data-testid="first-page"
+            >
+              First
+            </div>
+          </div>
+          <div
+            class="p-2 bd-highlight"
+          >
+            <div
+              class="sc-hKgILt llewCg"
+              data-testid="previous-page"
+            >
+              Previous
+            </div>
+          </div>
+          <div
+            class="p-2 bd-highlight"
+          >
+            <div
+              class="sc-hKgILt llewCg"
+            >
+              Page 
+              1
+               of 
+            </div>
+          </div>
+          <div
+            class="p-2 bd-highlight"
+          >
+            <div
+              class="sc-hKgILt llewCg"
+              data-testid="next-page"
+            >
+              Next
+            </div>
+          </div>
+          <div
+            class="p-2 bd-highlight"
+          >
+            <div
+              class="sc-hKgILt llewCg"
+              data-testid="last-page"
+            >
+              Last
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="sc-bdfBwQ hhKrKQ footer text-center mt-3"
+  >
+    <span
+      class="margin-auto"
+    >
+      © AUTO1 Group 2018
+    </span>
+  </footer>
+</div>
+`;

@@ -7,16 +7,27 @@ export const Paginator: FC = ({ currentPage, totalPages, navigateToPage }) => {
         <div className="d-flex justify-content-center">
             <div className="p-2 bd-highlight">
                 {currentPage > 1 ? (
-                    <Link onClick={() => navigateToPage(1)}>First</Link>
+                    <Link onClick={() => navigateToPage(1)} data-testid="first-page">
+                        First
+                    </Link>
                 ) : (
-                    <Text size="small">First</Text>
+                    <Text size="small" data-testid="first-page">
+                        First
+                    </Text>
                 )}
             </div>
             <div className="p-2 bd-highlight">
                 {currentPage > 1 ? (
-                    <Link onClick={() => navigateToPage(currentPage - 1)}>Previous</Link>
+                    <Link
+                        onClick={() => navigateToPage(currentPage - 1)}
+                        data-testid="previous-page"
+                    >
+                        Previous
+                    </Link>
                 ) : (
-                    <Text size="small">Previous</Text>
+                    <Text size="small" data-testid="previous-page">
+                        Previous
+                    </Text>
                 )}
             </div>
             <div className="p-2 bd-highlight">
@@ -26,16 +37,24 @@ export const Paginator: FC = ({ currentPage, totalPages, navigateToPage }) => {
             </div>
             <div className="p-2 bd-highlight">
                 {currentPage < totalPages ? (
-                    <Link onClick={() => navigateToPage(currentPage + 1)}>Next</Link>
+                    <Link onClick={() => navigateToPage(currentPage + 1)} data-testid="next-page">
+                        Next
+                    </Link>
                 ) : (
-                    <Text size="small">Next</Text>
+                    <Text size="small" data-testid="next-page">
+                        Next
+                    </Text>
                 )}
             </div>
             <div className="p-2 bd-highlight">
                 {currentPage < totalPages ? (
-                    <Link onClick={() => navigateToPage(totalPages)}>Last</Link>
+                    <Link onClick={() => navigateToPage(totalPages)} data-testid="last-page">
+                        Last
+                    </Link>
                 ) : (
-                    <Text size="small">Last</Text>
+                    <Text size="small" data-testid="last-page">
+                        Last
+                    </Text>
                 )}
             </div>
         </div>

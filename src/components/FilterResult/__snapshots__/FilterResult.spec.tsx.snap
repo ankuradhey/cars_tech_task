@@ -1,0 +1,582 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterResult Component Should do full app rendering/navigating 1`] = `
+<div>
+  <div
+    class="sc-dlfnbm iPsSGC d-block margin-bottom-2"
+  >
+    Available cars
+  </div>
+  <div
+    class="sc-dlfnbm dqWGDI margin-bottom-3"
+  >
+    Showing 10 of 1000 results
+  </div>
+  <div
+    class="row"
+  >
+    <div
+      class="col"
+    >
+      <div
+        class="margin-bottom-2 card"
+      >
+        <div
+          class="sc-hKgILt hZGhHr"
+        >
+          <div
+            class="sc-eCssSg ituOTJ"
+          >
+            <div
+              class="sc-bdfBwQ dQCTDP"
+              height="80px"
+              loading="false"
+              width="100px"
+            >
+              <img
+                alt="car"
+                src="https://auto1-js-task-api--mufasa71.repl.co/images/car.svg"
+              />
+            </div>
+          </div>
+          <div
+            class="sc-jSgupP gstVBl"
+          >
+            <div
+              class="card-title h5"
+            >
+              Fiat Idea
+            </div>
+            <div
+              class="sc-dlfnbm dXPfWA"
+            >
+              Stock # 10019 - 111955KM - Petrol - blue
+            </div>
+            <button
+              class="sc-gsTCUz ezYRfg d-block"
+              data-testid="viewDetailsLink"
+            >
+              View details
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="row"
+  >
+    <div
+      class="col"
+    >
+      <div
+        class="margin-bottom-2 card"
+      >
+        <div
+          class="sc-hKgILt hZGhHr"
+        >
+          <div
+            class="sc-eCssSg ituOTJ"
+          >
+            <div
+              class="sc-bdfBwQ dQCTDP"
+              height="80px"
+              loading="false"
+              width="100px"
+            >
+              <img
+                alt="car"
+                src="https://auto1-js-task-api--mufasa71.repl.co/images/car.svg"
+              />
+            </div>
+          </div>
+          <div
+            class="sc-jSgupP gstVBl"
+          >
+            <div
+              class="card-title h5"
+            >
+              Skoda Rapid
+            </div>
+            <div
+              class="sc-dlfnbm dXPfWA"
+            >
+              Stock # 10084 - 166819KM - Petrol - white
+            </div>
+            <button
+              class="sc-gsTCUz ezYRfg d-block"
+              data-testid="viewDetailsLink"
+            >
+              View details
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="row"
+  >
+    <div
+      class="col"
+    >
+      <div
+        class="margin-bottom-2 card"
+      >
+        <div
+          class="sc-hKgILt hZGhHr"
+        >
+          <div
+            class="sc-eCssSg ituOTJ"
+          >
+            <div
+              class="sc-bdfBwQ dQCTDP"
+              height="80px"
+              loading="false"
+              width="100px"
+            >
+              <img
+                alt="car"
+                src="https://auto1-js-task-api--mufasa71.repl.co/images/car.svg"
+              />
+            </div>
+          </div>
+          <div
+            class="sc-jSgupP gstVBl"
+          >
+            <div
+              class="card-title h5"
+            >
+              Mercedes-Benz Sprinter
+            </div>
+            <div
+              class="sc-dlfnbm dXPfWA"
+            >
+              Stock # 10176 - 125331KM - Petrol - silver
+            </div>
+            <button
+              class="sc-gsTCUz ezYRfg d-block"
+              data-testid="viewDetailsLink"
+            >
+              View details
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="row"
+  >
+    <div
+      class="col"
+    >
+      <div
+        class="margin-bottom-2 card"
+      >
+        <div
+          class="sc-hKgILt hZGhHr"
+        >
+          <div
+            class="sc-eCssSg ituOTJ"
+          >
+            <div
+              class="sc-bdfBwQ dQCTDP"
+              height="80px"
+              loading="false"
+              width="100px"
+            >
+              <img
+                alt="car"
+                src="https://auto1-js-task-api--mufasa71.repl.co/images/car.svg"
+              />
+            </div>
+          </div>
+          <div
+            class="sc-jSgupP gstVBl"
+          >
+            <div
+              class="card-title h5"
+            >
+              Mercedes-Benz Viano
+            </div>
+            <div
+              class="sc-dlfnbm dXPfWA"
+            >
+              Stock # 10217 - 119173KM - Diesel - green
+            </div>
+            <button
+              class="sc-gsTCUz ezYRfg d-block"
+              data-testid="viewDetailsLink"
+            >
+              View details
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="row"
+  >
+    <div
+      class="col"
+    >
+      <div
+        class="margin-bottom-2 card"
+      >
+        <div
+          class="sc-hKgILt hZGhHr"
+        >
+          <div
+            class="sc-eCssSg ituOTJ"
+          >
+            <div
+              class="sc-bdfBwQ dQCTDP"
+              height="80px"
+              loading="false"
+              width="100px"
+            >
+              <img
+                alt="car"
+                src="https://auto1-js-task-api--mufasa71.repl.co/images/car.svg"
+              />
+            </div>
+          </div>
+          <div
+            class="sc-jSgupP gstVBl"
+          >
+            <div
+              class="card-title h5"
+            >
+              Mercedes-Benz SL-Klasse
+            </div>
+            <div
+              class="sc-dlfnbm dXPfWA"
+            >
+              Stock # 10239 - 165176KM - Petrol - blue
+            </div>
+            <button
+              class="sc-gsTCUz ezYRfg d-block"
+              data-testid="viewDetailsLink"
+            >
+              View details
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="row"
+  >
+    <div
+      class="col"
+    >
+      <div
+        class="margin-bottom-2 card"
+      >
+        <div
+          class="sc-hKgILt hZGhHr"
+        >
+          <div
+            class="sc-eCssSg ituOTJ"
+          >
+            <div
+              class="sc-bdfBwQ dQCTDP"
+              height="80px"
+              loading="false"
+              width="100px"
+            >
+              <img
+                alt="car"
+                src="https://auto1-js-task-api--mufasa71.repl.co/images/car.svg"
+              />
+            </div>
+          </div>
+          <div
+            class="sc-jSgupP gstVBl"
+          >
+            <div
+              class="card-title h5"
+            >
+              Chrysler Crossfire
+            </div>
+            <div
+              class="sc-dlfnbm dXPfWA"
+            >
+              Stock # 10283 - 114177KM - Petrol - black
+            </div>
+            <button
+              class="sc-gsTCUz ezYRfg d-block"
+              data-testid="viewDetailsLink"
+            >
+              View details
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="row"
+  >
+    <div
+      class="col"
+    >
+      <div
+        class="margin-bottom-2 card"
+      >
+        <div
+          class="sc-hKgILt hZGhHr"
+        >
+          <div
+            class="sc-eCssSg ituOTJ"
+          >
+            <div
+              class="sc-bdfBwQ dQCTDP"
+              height="80px"
+              loading="false"
+              width="100px"
+            >
+              <img
+                alt="car"
+                src="https://auto1-js-task-api--mufasa71.repl.co/images/car.svg"
+              />
+            </div>
+          </div>
+          <div
+            class="sc-jSgupP gstVBl"
+          >
+            <div
+              class="card-title h5"
+            >
+              Porsche 718 Cayman
+            </div>
+            <div
+              class="sc-dlfnbm dXPfWA"
+            >
+              Stock # 10385 - 180397KM - Petrol - white
+            </div>
+            <button
+              class="sc-gsTCUz ezYRfg d-block"
+              data-testid="viewDetailsLink"
+            >
+              View details
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="row"
+  >
+    <div
+      class="col"
+    >
+      <div
+        class="margin-bottom-2 card"
+      >
+        <div
+          class="sc-hKgILt hZGhHr"
+        >
+          <div
+            class="sc-eCssSg ituOTJ"
+          >
+            <div
+              class="sc-bdfBwQ dQCTDP"
+              height="80px"
+              loading="false"
+              width="100px"
+            >
+              <img
+                alt="car"
+                src="https://auto1-js-task-api--mufasa71.repl.co/images/car.svg"
+              />
+            </div>
+          </div>
+          <div
+            class="sc-jSgupP gstVBl"
+          >
+            <div
+              class="card-title h5"
+            >
+              BMW i3
+            </div>
+            <div
+              class="sc-dlfnbm dXPfWA"
+            >
+              Stock # 10477 - 127584KM - Petrol - blue
+            </div>
+            <button
+              class="sc-gsTCUz ezYRfg d-block"
+              data-testid="viewDetailsLink"
+            >
+              View details
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="row"
+  >
+    <div
+      class="col"
+    >
+      <div
+        class="margin-bottom-2 card"
+      >
+        <div
+          class="sc-hKgILt hZGhHr"
+        >
+          <div
+            class="sc-eCssSg ituOTJ"
+          >
+            <div
+              class="sc-bdfBwQ dQCTDP"
+              height="80px"
+              loading="false"
+              width="100px"
+            >
+              <img
+                alt="car"
+                src="https://auto1-js-task-api--mufasa71.repl.co/images/car.svg"
+              />
+            </div>
+          </div>
+          <div
+            class="sc-jSgupP gstVBl"
+          >
+            <div
+              class="card-title h5"
+            >
+              Volkswagen Crafter
+            </div>
+            <div
+              class="sc-dlfnbm dXPfWA"
+            >
+              Stock # 10481 - 176629KM - Diesel - white
+            </div>
+            <button
+              class="sc-gsTCUz ezYRfg d-block"
+              data-testid="viewDetailsLink"
+            >
+              View details
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="row"
+  >
+    <div
+      class="col"
+    >
+      <div
+        class="margin-bottom-2 card"
+      >
+        <div
+          class="sc-hKgILt hZGhHr"
+        >
+          <div
+            class="sc-eCssSg ituOTJ"
+          >
+            <div
+              class="sc-bdfBwQ dQCTDP"
+              height="80px"
+              loading="false"
+              width="100px"
+            >
+              <img
+                alt="car"
+                src="https://auto1-js-task-api--mufasa71.repl.co/images/car.svg"
+              />
+            </div>
+          </div>
+          <div
+            class="sc-jSgupP gstVBl"
+          >
+            <div
+              class="card-title h5"
+            >
+              Dodge Nitro
+            </div>
+            <div
+              class="sc-dlfnbm dXPfWA"
+            >
+              Stock # 10571 - 115196KM - Petrol - yellow
+            </div>
+            <button
+              class="sc-gsTCUz ezYRfg d-block"
+              data-testid="viewDetailsLink"
+            >
+              View details
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="d-flex justify-content-center"
+  >
+    <div
+      class="p-2 bd-highlight"
+    >
+      <div
+        class="sc-dlfnbm icINku"
+        data-testid="first-page"
+      >
+        First
+      </div>
+    </div>
+    <div
+      class="p-2 bd-highlight"
+    >
+      <div
+        class="sc-dlfnbm icINku"
+        data-testid="previous-page"
+      >
+        Previous
+      </div>
+    </div>
+    <div
+      class="p-2 bd-highlight"
+    >
+      <div
+        class="sc-dlfnbm icINku"
+      >
+        Page 
+        1
+         of 
+        100
+      </div>
+    </div>
+    <div
+      class="p-2 bd-highlight"
+    >
+      <button
+        class="sc-gsTCUz ezYRfg"
+        data-testid="next-page"
+      >
+        Next
+      </button>
+    </div>
+    <div
+      class="p-2 bd-highlight"
+    >
+      <button
+        class="sc-gsTCUz ezYRfg"
+        data-testid="last-page"
+      >
+        Last
+      </button>
+    </div>
+  </div>
+</div>
+`;

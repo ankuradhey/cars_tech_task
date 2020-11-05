@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Component Should render Footer component 1`] = `
+<footer
+  class="sc-bdfBwQ hhKrKQ footer text-center mt-3"
+>
+  <span
+    class="margin-auto"
+  >
+    © AUTO1 Group 2018
+  </span>
+</footer>
+`;

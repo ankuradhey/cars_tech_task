@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarCard Component Should render CarCard component 1`] = `
+<div
+  class="margin-bottom-2 card"
+>
+  <div
+    class="sc-hKgILt hZGhHr"
+  >
+    <div
+      class="sc-eCssSg ituOTJ"
+    >
+      <div
+        class="sc-bdfBwQ dQCTDP"
+        height="80px"
+        loading="false"
+        width="100px"
+      >
+        <img
+          alt="car"
+          src="/image"
+        />
+      </div>
+    </div>
+    <div
+      class="sc-jSgupP gstVBl"
+    >
+      <div
+        class="card-title h5"
+      >
+        car title
+      </div>
+      <div
+        class="sc-dlfnbm dXPfWA"
+      >
+        car subtitle
+      </div>
+      <button
+        class="sc-gsTCUz ezYRfg d-block"
+        data-testid="viewDetailsLink"
+      >
+        View details
+      </button>
+    </div>
+  </div>
+</div>
+`;

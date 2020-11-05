@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component Should render Button component 1`] = `
+<div
+  class="d-flex flex-column justify-content-center align-items-center container"
+  style="min-height: calc(100vh - 160px);"
+>
+  <img
+    alt="logo"
+    class="margin-bottom-3 d-flex"
+    src="logo.png"
+    width="190px"
+  />
+  <div
+    class="sc-bdfBwQ fDCeuL margin-bottom-3 d-flex"
+  >
+    404 - Not Found
+  </div>
+  <div
+    class="sc-bdfBwQ veibz margin-bottom-3 d-flex"
+  >
+    Sorry, the page you are looking for does not exist.
+  </div>
+  <div
+    class="sc-bdfBwQ veibz margin-bottom-2 d-flex"
+  >
+    You can always go back to the  
+    <button
+      class="sc-gsTCUz ezYRfg"
+    >
+       homepage
+    </button>
+  </div>
+</div>
+`;

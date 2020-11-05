@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component Should render Header component 1`] = `
+<div
+  class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow"
+>
+  <a
+    class="brand my-0 mr-md-auto font-weight-normal"
+    href="/"
+  >
+    <img
+      alt="Auto1.com"
+      src="logo.png"
+    />
+  </a>
+  <nav
+    class="my-2 my-md-0 mr-md-3"
+  >
+    <a
+      class="p-2 text-dark"
+      href="/"
+    >
+      Purchase
+    </a>
+    <a
+      class="p-2 text-dark"
+      href="/"
+    >
+      My Orders
+    </a>
+    <a
+      class="p-2 text-dark"
+      href="/"
+    >
+      Sell
+    </a>
+  </nav>
+</div>
+`;

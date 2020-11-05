@@ -1,6 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { ThemeProvider } from "styled-components";
+import { BrowserRouter } from "react-router-dom";
 import App from "./App";
+import { defaultTheme } from "./theme";
 import reportWebVitals from "./reportWebVitals";
 // Load Roboto typeface
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -9,7 +12,11 @@ require("typeface-roboto");
 
 ReactDOM.render(
     <React.StrictMode>
-        <App />
+        <ThemeProvider theme={defaultTheme}>
+            <BrowserRouter>
+                <App />
+            </BrowserRouter>
+        </ThemeProvider>
     </React.StrictMode>,
     document.getElementById("root")
 );

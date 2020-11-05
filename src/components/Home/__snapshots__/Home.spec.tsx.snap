@@ -1,0 +1,609 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Component Should render Home component 1`] = `
+<div
+  class="container"
+>
+  <div
+    class="row"
+  >
+    <div
+      class="col-md-4"
+    >
+      <div
+        class="margin-bottom-3 card"
+      >
+        <div
+          class="card-body"
+        >
+          <form
+            class=""
+          >
+            <div
+              class="form-group"
+            >
+              <label
+                class="form-label"
+              >
+                <div
+                  class="sc-dlfnbm icINku"
+                >
+                  Color
+                </div>
+              </label>
+              <select
+                class="custom-select"
+                data-testid="color"
+              >
+                <option
+                  value=""
+                >
+                  All car colors
+                </option>
+              </select>
+            </div>
+            <div
+              class="form-group"
+            >
+              <label
+                class="form-label"
+              >
+                <div
+                  class="sc-dlfnbm icINku"
+                >
+                  Manufacturer
+                </div>
+              </label>
+              <select
+                class="custom-select"
+                data-testid="manufacturer"
+              >
+                <option
+                  value=""
+                >
+                  All manufacturers
+                </option>
+              </select>
+            </div>
+          </form>
+          <button
+            class="sc-gKsewC euEXZP float-right"
+            data-testid="filter"
+          >
+            Filter
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col-md-8"
+    >
+      <div
+        class="sc-dlfnbm iPsSGC d-block margin-bottom-2"
+      >
+        Available cars
+      </div>
+      <div
+        class="sc-dlfnbm dqWGDI margin-bottom-3"
+      >
+        Loading
+      </div>
+      <div
+        class="margin-bottom-2 card"
+      >
+        <div
+          class="sc-hKgILt hZGhHr"
+        >
+          <div
+            class="sc-eCssSg ituOTJ"
+          >
+            <div
+              class="sc-bdfBwQ bAWNIY"
+              height="80px"
+              loading="true"
+              width="100px"
+            />
+          </div>
+          <div
+            class="sc-jSgupP gstVBl"
+          >
+            <div
+              class="sc-bdfBwQ ghPXQo margin-bottom-1"
+              height="18px"
+              loading="true"
+              width="100%"
+            />
+            <div
+              class="sc-bdfBwQ gTqLku margin-bottom-2"
+              height="12px"
+              loading="true"
+              width="100%"
+            />
+            <div
+              class="sc-bdfBwQ kAwMCN margin-bottom-2 d-inline-block"
+              height="12px"
+              loading="true"
+              width="auto"
+            >
+              <button
+                class="sc-gsTCUz ezYRfg invisible"
+              >
+                View details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="margin-bottom-2 card"
+      >
+        <div
+          class="sc-hKgILt hZGhHr"
+        >
+          <div
+            class="sc-eCssSg ituOTJ"
+          >
+            <div
+              class="sc-bdfBwQ bAWNIY"
+              height="80px"
+              loading="true"
+              width="100px"
+            />
+          </div>
+          <div
+            class="sc-jSgupP gstVBl"
+          >
+            <div
+              class="sc-bdfBwQ ghPXQo margin-bottom-1"
+              height="18px"
+              loading="true"
+              width="100%"
+            />
+            <div
+              class="sc-bdfBwQ gTqLku margin-bottom-2"
+              height="12px"
+              loading="true"
+              width="100%"
+            />
+            <div
+              class="sc-bdfBwQ kAwMCN margin-bottom-2 d-inline-block"
+              height="12px"
+              loading="true"
+              width="auto"
+            >
+              <button
+                class="sc-gsTCUz ezYRfg invisible"
+              >
+                View details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="margin-bottom-2 card"
+      >
+        <div
+          class="sc-hKgILt hZGhHr"
+        >
+          <div
+            class="sc-eCssSg ituOTJ"
+          >
+            <div
+              class="sc-bdfBwQ bAWNIY"
+              height="80px"
+              loading="true"
+              width="100px"
+            />
+          </div>
+          <div
+            class="sc-jSgupP gstVBl"
+          >
+            <div
+              class="sc-bdfBwQ ghPXQo margin-bottom-1"
+              height="18px"
+              loading="true"
+              width="100%"
+            />
+            <div
+              class="sc-bdfBwQ gTqLku margin-bottom-2"
+              height="12px"
+              loading="true"
+              width="100%"
+            />
+            <div
+              class="sc-bdfBwQ kAwMCN margin-bottom-2 d-inline-block"
+              height="12px"
+              loading="true"
+              width="auto"
+            >
+              <button
+                class="sc-gsTCUz ezYRfg invisible"
+              >
+                View details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="margin-bottom-2 card"
+      >
+        <div
+          class="sc-hKgILt hZGhHr"
+        >
+          <div
+            class="sc-eCssSg ituOTJ"
+          >
+            <div
+              class="sc-bdfBwQ bAWNIY"
+              height="80px"
+              loading="true"
+              width="100px"
+            />
+          </div>
+          <div
+            class="sc-jSgupP gstVBl"
+          >
+            <div
+              class="sc-bdfBwQ ghPXQo margin-bottom-1"
+              height="18px"
+              loading="true"
+              width="100%"
+            />
+            <div
+              class="sc-bdfBwQ gTqLku margin-bottom-2"
+              height="12px"
+              loading="true"
+              width="100%"
+            />
+            <div
+              class="sc-bdfBwQ kAwMCN margin-bottom-2 d-inline-block"
+              height="12px"
+              loading="true"
+              width="auto"
+            >
+              <button
+                class="sc-gsTCUz ezYRfg invisible"
+              >
+                View details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="margin-bottom-2 card"
+      >
+        <div
+          class="sc-hKgILt hZGhHr"
+        >
+          <div
+            class="sc-eCssSg ituOTJ"
+          >
+            <div
+              class="sc-bdfBwQ bAWNIY"
+              height="80px"
+              loading="true"
+              width="100px"
+            />
+          </div>
+          <div
+            class="sc-jSgupP gstVBl"
+          >
+            <div
+              class="sc-bdfBwQ ghPXQo margin-bottom-1"
+              height="18px"
+              loading="true"
+              width="100%"
+            />
+            <div
+              class="sc-bdfBwQ gTqLku margin-bottom-2"
+              height="12px"
+              loading="true"
+              width="100%"
+            />
+            <div
+              class="sc-bdfBwQ kAwMCN margin-bottom-2 d-inline-block"
+              height="12px"
+              loading="true"
+              width="auto"
+            >
+              <button
+                class="sc-gsTCUz ezYRfg invisible"
+              >
+                View details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="margin-bottom-2 card"
+      >
+        <div
+          class="sc-hKgILt hZGhHr"
+        >
+          <div
+            class="sc-eCssSg ituOTJ"
+          >
+            <div
+              class="sc-bdfBwQ bAWNIY"
+              height="80px"
+              loading="true"
+              width="100px"
+            />
+          </div>
+          <div
+            class="sc-jSgupP gstVBl"
+          >
+            <div
+              class="sc-bdfBwQ ghPXQo margin-bottom-1"
+              height="18px"
+              loading="true"
+              width="100%"
+            />
+            <div
+              class="sc-bdfBwQ gTqLku margin-bottom-2"
+              height="12px"
+              loading="true"
+              width="100%"
+            />
+            <div
+              class="sc-bdfBwQ kAwMCN margin-bottom-2 d-inline-block"
+              height="12px"
+              loading="true"
+              width="auto"
+            >
+              <button
+                class="sc-gsTCUz ezYRfg invisible"
+              >
+                View details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="margin-bottom-2 card"
+      >
+        <div
+          class="sc-hKgILt hZGhHr"
+        >
+          <div
+            class="sc-eCssSg ituOTJ"
+          >
+            <div
+              class="sc-bdfBwQ bAWNIY"
+              height="80px"
+              loading="true"
+              width="100px"
+            />
+          </div>
+          <div
+            class="sc-jSgupP gstVBl"
+          >
+            <div
+              class="sc-bdfBwQ ghPXQo margin-bottom-1"
+              height="18px"
+              loading="true"
+              width="100%"
+            />
+            <div
+              class="sc-bdfBwQ gTqLku margin-bottom-2"
+              height="12px"
+              loading="true"
+              width="100%"
+            />
+            <div
+              class="sc-bdfBwQ kAwMCN margin-bottom-2 d-inline-block"
+              height="12px"
+              loading="true"
+              width="auto"
+            >
+              <button
+                class="sc-gsTCUz ezYRfg invisible"
+              >
+                View details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="margin-bottom-2 card"
+      >
+        <div
+          class="sc-hKgILt hZGhHr"
+        >
+          <div
+            class="sc-eCssSg ituOTJ"
+          >
+            <div
+              class="sc-bdfBwQ bAWNIY"
+              height="80px"
+              loading="true"
+              width="100px"
+            />
+          </div>
+          <div
+            class="sc-jSgupP gstVBl"
+          >
+            <div
+              class="sc-bdfBwQ ghPXQo margin-bottom-1"
+              height="18px"
+              loading="true"
+              width="100%"
+            />
+            <div
+              class="sc-bdfBwQ gTqLku margin-bottom-2"
+              height="12px"
+              loading="true"
+              width="100%"
+            />
+            <div
+              class="sc-bdfBwQ kAwMCN margin-bottom-2 d-inline-block"
+              height="12px"
+              loading="true"
+              width="auto"
+            >
+              <button
+                class="sc-gsTCUz ezYRfg invisible"
+              >
+                View details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="margin-bottom-2 card"
+      >
+        <div
+          class="sc-hKgILt hZGhHr"
+        >
+          <div
+            class="sc-eCssSg ituOTJ"
+          >
+            <div
+              class="sc-bdfBwQ bAWNIY"
+              height="80px"
+              loading="true"
+              width="100px"
+            />
+          </div>
+          <div
+            class="sc-jSgupP gstVBl"
+          >
+            <div
+              class="sc-bdfBwQ ghPXQo margin-bottom-1"
+              height="18px"
+              loading="true"
+              width="100%"
+            />
+            <div
+              class="sc-bdfBwQ gTqLku margin-bottom-2"
+              height="12px"
+              loading="true"
+              width="100%"
+            />
+            <div
+              class="sc-bdfBwQ kAwMCN margin-bottom-2 d-inline-block"
+              height="12px"
+              loading="true"
+              width="auto"
+            >
+              <button
+                class="sc-gsTCUz ezYRfg invisible"
+              >
+                View details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="margin-bottom-2 card"
+      >
+        <div
+          class="sc-hKgILt hZGhHr"
+        >
+          <div
+            class="sc-eCssSg ituOTJ"
+          >
+            <div
+              class="sc-bdfBwQ bAWNIY"
+              height="80px"
+              loading="true"
+              width="100px"
+            />
+          </div>
+          <div
+            class="sc-jSgupP gstVBl"
+          >
+            <div
+              class="sc-bdfBwQ ghPXQo margin-bottom-1"
+              height="18px"
+              loading="true"
+              width="100%"
+            />
+            <div
+              class="sc-bdfBwQ gTqLku margin-bottom-2"
+              height="12px"
+              loading="true"
+              width="100%"
+            />
+            <div
+              class="sc-bdfBwQ kAwMCN margin-bottom-2 d-inline-block"
+              height="12px"
+              loading="true"
+              width="auto"
+            >
+              <button
+                class="sc-gsTCUz ezYRfg invisible"
+              >
+                View details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-center"
+      >
+        <div
+          class="p-2 bd-highlight"
+        >
+          <div
+            class="sc-dlfnbm icINku"
+            data-testid="first-page"
+          >
+            First
+          </div>
+        </div>
+        <div
+          class="p-2 bd-highlight"
+        >
+          <div
+            class="sc-dlfnbm icINku"
+            data-testid="previous-page"
+          >
+            Previous
+          </div>
+        </div>
+        <div
+          class="p-2 bd-highlight"
+        >
+          <div
+            class="sc-dlfnbm icINku"
+          >
+            Page 
+            1
+             of 
+          </div>
+        </div>
+        <div
+          class="p-2 bd-highlight"
+        >
+          <div
+            class="sc-dlfnbm icINku"
+            data-testid="next-page"
+          >
+            Next
+          </div>
+        </div>
+        <div
+          class="p-2 bd-highlight"
+        >
+          <div
+            class="sc-dlfnbm icINku"
+            data-testid="last-page"
+          >
+            Last
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

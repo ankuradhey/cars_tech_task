@@ -1,0 +1,126 @@
+{
+    "cars": [
+        {
+            "stockNumber": 10019,
+            "manufacturerName": "Fiat",
+            "modelName": "Idea",
+            "color": "blue",
+            "mileage": {
+                "number": 111955,
+                "unit": "km"
+            },
+            "fuelType": "Petrol",
+            "pictureUrl": "https://auto1-js-task-api--mufasa71.repl.co/images/car.svg"
+        },
+        {
+            "stockNumber": 10084,
+            "manufacturerName": "Skoda",
+            "modelName": "Rapid",
+            "color": "white",
+            "mileage": {
+                "number": 166819,
+                "unit": "km"
+            },
+            "fuelType": "Petrol",
+            "pictureUrl": "https://auto1-js-task-api--mufasa71.repl.co/images/car.svg"
+        },
+        {
+            "stockNumber": 10176,
+            "manufacturerName": "Mercedes-Benz",
+            "modelName": "Sprinter",
+            "color": "silver",
+            "mileage": {
+                "number": 125331,
+                "unit": "km"
+            },
+            "fuelType": "Petrol",
+            "pictureUrl": "https://auto1-js-task-api--mufasa71.repl.co/images/car.svg"
+        },
+        {
+            "stockNumber": 10217,
+            "manufacturerName": "Mercedes-Benz",
+            "modelName": "Viano",
+            "color": "green",
+            "mileage": {
+                "number": 119173,
+                "unit": "km"
+            },
+            "fuelType": "Diesel",
+            "pictureUrl": "https://auto1-js-task-api--mufasa71.repl.co/images/car.svg"
+        },
+        {
+            "stockNumber": 10239,
+            "manufacturerName": "Mercedes-Benz",
+            "modelName": "SL-Klasse",
+            "color": "blue",
+            "mileage": {
+                "number": 165176,
+                "unit": "km"
+            },
+            "fuelType": "Petrol",
+            "pictureUrl": "https://auto1-js-task-api--mufasa71.repl.co/images/car.svg"
+        },
+        {
+            "stockNumber": 10283,
+            "manufacturerName": "Chrysler",
+            "modelName": "Crossfire",
+            "color": "black",
+            "mileage": {
+                "number": 114177,
+                "unit": "km"
+            },
+            "fuelType": "Petrol",
+            "pictureUrl": "https://auto1-js-task-api--mufasa71.repl.co/images/car.svg"
+        },
+        {
+            "stockNumber": 10385,
+            "manufacturerName": "Porsche",
+            "modelName": "718 Cayman",
+            "color": "white",
+            "mileage": {
+                "number": 180397,
+                "unit": "km"
+            },
+            "fuelType": "Petrol",
+            "pictureUrl": "https://auto1-js-task-api--mufasa71.repl.co/images/car.svg"
+        },
+        {
+            "stockNumber": 10477,
+            "manufacturerName": "BMW",
+            "modelName": "i3",
+            "color": "blue",
+            "mileage": {
+                "number": 127584,
+                "unit": "km"
+            },
+            "fuelType": "Petrol",
+            "pictureUrl": "https://auto1-js-task-api--mufasa71.repl.co/images/car.svg"
+        },
+        {
+            "stockNumber": 10481,
+            "manufacturerName": "Volkswagen",
+            "modelName": "Crafter",
+            "color": "white",
+            "mileage": {
+                "number": 176629,
+                "unit": "km"
+            },
+            "fuelType": "Diesel",
+            "pictureUrl": "https://auto1-js-task-api--mufasa71.repl.co/images/car.svg"
+        },
+        {
+            "stockNumber": 10571,
+            "manufacturerName": "Dodge",
+            "modelName": "Nitro",
+            "color": "yellow",
+            "mileage": {
+                "number": 115196,
+                "unit": "km"
+            },
+            "fuelType": "Petrol",
+            "pictureUrl": "https://auto1-js-task-api--mufasa71.repl.co/images/car.svg"
+        }
+    ],
+    "totalPageCount": 100,
+    "totalCarsCount": 1000
+}

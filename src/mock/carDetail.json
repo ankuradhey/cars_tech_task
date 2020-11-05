@@ -1,0 +1,14 @@
+{
+    "car": {
+        "stockNumber": 10034,
+        "manufacturerName": "Fiat",
+        "modelName": "Grande Punto",
+        "color": "black",
+        "mileage": {
+            "number": 170648,
+            "unit": "km"
+        },
+        "fuelType": "Diesel",
+        "pictureUrl": "https://auto1-js-task-api--mufasa71.repl.co/images/car.svg"
+    }
+}

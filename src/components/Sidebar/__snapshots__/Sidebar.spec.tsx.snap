@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar Component Should render Sidebar component 1`] = `
+<div
+  class="margin-bottom-3 card"
+>
+  <div
+    class="card-body"
+  >
+    <form
+      class=""
+    >
+      <div
+        class="form-group"
+      >
+        <label
+          class="form-label"
+        >
+          <div
+            class="sc-gsTCUz hhHEdt"
+          >
+            Color
+          </div>
+        </label>
+        <select
+          class="custom-select"
+          data-testid="color"
+        >
+          <option
+            value=""
+          >
+            All car colors
+          </option>
+        </select>
+      </div>
+      <div
+        class="form-group"
+      >
+        <label
+          class="form-label"
+        >
+          <div
+            class="sc-gsTCUz hhHEdt"
+          >
+            Manufacturer
+          </div>
+        </label>
+        <select
+          class="custom-select"
+          data-testid="manufacturer"
+        >
+          <option
+            value=""
+          >
+            All manufacturers
+          </option>
+        </select>
+      </div>
+    </form>
+    <button
+      class="sc-bdfBwQ hfyqFt float-right"
+      data-testid="filter"
+    >
+      Filter
+    </button>
+  </div>
+</div>
+`;

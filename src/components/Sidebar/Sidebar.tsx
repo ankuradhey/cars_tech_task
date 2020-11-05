@@ -50,6 +50,7 @@ export const Sidebar: FC<SidebarProp> = ({ setFilter }) => {
                         <Form.Control
                             as="select"
                             custom
+                            data-testid="color"
                             onChange={(e) => setFilterState("color", e.target.value)}
                         >
                             <option value="">All car colors</option>
@@ -65,6 +66,7 @@ export const Sidebar: FC<SidebarProp> = ({ setFilter }) => {
                         <Form.Control
                             as="select"
                             custom
+                            data-testid="manufacturer"
                             onChange={(e) => setFilterState("manufacturer", e.target.value)}
                         >
                             <option value="">All manufacturers</option>
@@ -74,7 +76,12 @@ export const Sidebar: FC<SidebarProp> = ({ setFilter }) => {
                         </Form.Control>
                     </Form.Group>
                 </Form>
-                <Button variant="primary" className="float-right" onClick={filterClick}>
+                <Button
+                    variant="primary"
+                    data-testid="filter"
+                    className="float-right"
+                    onClick={filterClick}
+                >
                     Filter
                 </Button>
             </Card.Body>

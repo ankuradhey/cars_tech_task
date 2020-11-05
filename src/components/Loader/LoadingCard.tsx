@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import { Card } from "react-bootstrap";
 import { ImgCard } from "../ImgCard";
-import { Link } from "../Link/Link.style";
+import { Link } from "../Link";
 import * as Styled from "../CarCard/CarCard.style";
 
 export const LoadingCarCard: FC = () => {
